@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="title">
+          <h1>Calculator</h1>
+          <div class="underline"></div>
+        </div>
+
+        <div class="calculator">
+          <div class="screen-container">
+            <input class="screen" type="text" id="output" disabled />
+          </div>
+          <div class="keys-container">
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">2</button>
+            <button type="button" class="btn">3</button>
+            <button type="button" class="tool">+</button>
+          </div>
+          <div class="keys-container">
+            <button type="button" class="btn">4</button>
+            <button type="button" class="btn">5</button>
+            <button type="button" class="btn">6</button>
+            <button type="button" class="tool">-</button>
+          </div>
+          <div class="keys-container">
+            <button type="button" class="btn">7</button>
+            <button type="button" class="btn">8</button>
+            <button type="button" class="btn">9</button>
+            <button type="button" class="tool">x</button>
+          </div>
+          <div class="keys-container">
+            <button type="button" class="tool">C</button>
+            <button type="button" class="btn">0</button>
+            <button type="button" class="btn">.</button>
+            <button type="button" class="tool">/</button>
+          </div>
+          <div id="equal-container">
+            <button type="button" class="tool" id="equal">=</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
